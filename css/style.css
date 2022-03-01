@@ -14,12 +14,13 @@ body{
 .container{
   background-color: white;
   width: 70%;
-  margin: 10px auto;
+  margin: 5px auto;
   padding: 30px 50px 30px;
   border-radius: 10px;
 }
 
 /* HEADER */
+
 header{
   background-color: white;
   height: 80px;
@@ -35,19 +36,29 @@ header h1{
 
 /* MAIN */
 
-/* nav */
+/* navigazione */
+
 nav .container{
   margin-top: 50px;
 }
 button{
   padding: 5px;
   border-radius: 5px;
+  border: 1px solid;
 }
 .primo-bottone{
   background-color:rgb(71, 173, 241) ;
+  color: white;
+}
+.secondo-bottone{
+  background-color: white;
+  color: rgb(197, 203, 208);
+  border-color: rgb(197, 203, 208);
+
 }
 
 /* sezione principale */
+
 h3{
   font-size: 25px;
   margin-bottom: 15px;
@@ -64,12 +75,12 @@ p{
   font-size: 10px;
 }
 .check{
-  color: green;
-  border-color: green;
+  color: rgb(146, 213, 198);
+  border-color: rgb(146, 213, 198);
 }
 .da-fare{
-  color: red;
-  border-color: red;
+  color: rgb(234, 97, 92);
+  border-color: rgb(234, 97, 92);
 }
 .colorata{
   font-size: 10px;
