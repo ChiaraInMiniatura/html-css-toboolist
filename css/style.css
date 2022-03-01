@@ -15,11 +15,11 @@ body{
   background-color: white;
   width: 70%;
   margin: 10px auto;
-  padding: 25px;
+  padding: 30px 50px 30px;
   border-radius: 10px;
 }
 
-/* header */
+/* HEADER */
 header{
   background-color: white;
   height: 80px;
@@ -33,16 +33,65 @@ header h1{
   font-size: 40px;
 }
 
-/* main */
+/* MAIN */
 
+/* nav */
 nav .container{
   margin-top: 50px;
 }
-
 button{
   padding: 5px;
   border-radius: 5px;
 }
 .primo-bottone{
   background-color:rgb(71, 173, 241) ;
+}
+
+/* sezione principale */
+h3{
+  font-size: 25px;
+  margin-bottom: 15px;
+  margin-top: 50px
+}
+p{
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.entity{
+  border: solid 1px;
+  border-radius: 50%;
+  padding: 3px;
+  font-size: 10px;
+}
+.check{
+  color: green;
+  border-color: green;
+}
+.da-fare{
+  color: red;
+  border-color: red;
+}
+.colorata{
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+.editorial{
+  background-color:rgb(71, 173, 241) ;
+}
+.q1{
+  background-color: blueviolet;
+}
+.recruiting{
+  background-color: rgb(100, 192, 169);
+}
+.mobile{
+  background-color: orange;
+}
+.website{
+  background-color:rgb(214, 92, 157);
+}
+.sales{
+  background-color: rgb(176, 201, 38);
 }
